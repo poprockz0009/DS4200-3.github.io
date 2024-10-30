@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nina Paprocki Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="font-size: 50px">Nina Paprocki - About Me</h1>
+
+    <p class="descriptions">
+      I am a Computer Science (Bachelor of Science) student at Northeastern
+      University, specializing in a Human Centered Computing conecentration. My
+      mission is to revolutionize product design and web development by
+      integrating minimalistic and appealing design. I am dedicated to enhancing
+      accessibility, transparency, and usability in every project I undertake. I
+      am a Lead UI/UX and Frontend Developer at Meditation Artifacts, an
+      education company formed within the Harvard Innovation by professional
+      religious scholars. Right now, I am designing and helping build a web app
+      which will help us collect key user metrics and feedback on our designs
+      and recomendation system. I am excited to announce that I will be working
+      as a User Experience Designer at Symbotic LLC this coming Spring. As part
+      of this role I will contribute to developing and maintaining the Symbotic
+      UI Design System. I will also organize and facilitate user testing
+      sessions, collaborating closely with UX Researchers, Principal and Senior
+      designers, and development stakeholders. Lastly, I will get to advocate
+      for end-users, UX Research & Design processes and methodologies,
+      innovation, usability and accessibility, and the creation and guidance of
+      interface standards. This is an exciting, "hands-on" opportunity that I
+      think will help deepen by understanding of targeting user needs and
+      understanding user behavior.
+    </p>
+    <div>
+      <button
+        id="navigationButton"
+        class="projects-button"
+        style="
+          padding-bottom: 50px;
+          align-items: center;
+          background-color: blueviolet;
+          color: white;
+        "
+      >
+        Check Out My Projects
+      </button>
+    </div>
+    <div>
+      <button style="background-color: rgb(0, 47, 255)" class="projects-button">
+        <a
+          href="https://linkedin.com/in/nina-paprocki
+  
+      "
+          style="
+            background-color: rgb(0, 47, 255);
+            color: rgb(255, 255, 255);
+            font-size: x-large;
+            text-decoration: none;
+          "
+          >Find my LinkedIn Here</a
+        >
+      </button>
+    </div>
+    <script>
+      const navigationButton = document.getElementById("navigationButton");
+      navigationButton.addEventListener("click", function () {
+        window.location.href = "page2.html";
+      });
+    </script>
+
+    <img src="Nina_Climbing_About.jpg" alt="" width="500" />
+  </body>
+</html>

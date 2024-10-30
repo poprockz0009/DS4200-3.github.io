@@ -1,0 +1,55 @@
+/* h1 {
+    text-align: center;
+}
+
+p {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#main {
+    color: red;
+    background-color: beige;
+    width: 500px;
+}
+
+.A {
+    border: 5px solid black;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(199, 176, 221);
+} */
+
+  
+  body {
+    /* margin: 50px; */
+    padding:50px;
+    height: 100vh;
+    background: #000000; 
+    text-align: center;
+    /* background: #161513; */
+    color: white;
+    font-family: "Nunito", sans-serif;
+  }
+  .projects-button{
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.projects-button:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+}
+
+.projects-button:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.descriptions{
+    padding-left: 250px;
+    padding-right: 250px;
+}
